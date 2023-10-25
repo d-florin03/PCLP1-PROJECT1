@@ -1,0 +1,53 @@
+Problema 1: cutii.c
+ 
+  Rezolvarea problemei a durat 4 ore.
+  In cadrul problemei, am aflat daca prizonierii vor evada sau nu, in functie
+de datele de intrare, si ciclurile care se vor forma la desfacerea cutiilor.
+  Initial am facut o functie pentru a verifica daca fiecare prizonier isi va 
+gasi numarul, iar daca unul nu si l-ar fi gasit, atunci toti pierdeau si nu 
+puteau evada. 
+  In main am cautat toate ciclurile formate, le-am stocat intr-un vector 
+si am retinut in alt vector numarul de cicluri din care face parte fiecare
+numar. Daca facea parte din mai multe cicluri comune, afisam doar primul ciclu.
+
+Problema 2: lungi.c
+
+  Rezolvarea problemei a durat 6-7 ore.
+  In cadrul acestei probleme, am calculat adunarea sau scaderea unor numere 
+complexe mari, stocate ca siruri de caractere, facand pentru fiecare operatie 
+cate o functie separata, in care am considerat mai multe cazuri. Operatiile 
+dintre numere puteau fi realizate intre numere de acelasi semn, sau numere de
+semne diferite, in care unul dintre ele putea fi mai mare sau egal decat celalalt.
+  In main citeam lungimea numerelor, primul numar, semnul, iar apoi citeam numere,
+ pentru a fi adaugate la suma sau diferenta, pana il citeam pe 0.
+
+Problema 3: codificari.c
+  
+  Rezolvarea problemei a durat in jur de 10-11 ore.
+  Am facut cate o functie pentru fiecare cerinta in parte, plus inca o functie ajutatoare,
+de care ulterior m-am folosit pentru a realiza codificari sau decodificari. Pentru
+codificarea A am introdus textul intr-o matrice, ale carei coloane le interschimbam in
+functie de sortarea cheii. Pentru codificarea si decodificarea B, mutam sirul cu atatea
+caractere la dreapta sau la stanga se cerea, in functie de cerinta. Pentru decodificarea A 
+am adaugat textul intr-o matrice, am tinut minte o ordine a caracterelor din cheie, ordine
+care se schimba cand sortam cheia si interschimbam coloanele matricei in functie de 
+ordine. Apoi adaugam textul din matrice inapoi in sirul inital. 
+
+Problema 4: masini.c
+
+  Rezolvarea problemei a durat cam 4 ore.
+  Am facut o structura pentru a retine fiecare caracteristica a masinilor si cate o functie 
+pentru fiecare cerinta. Prima functie imi calculeaza numarul de masini pentru 
+toti combustibilii utilizati. A doua functie calculeaza numarul de litri consumati de fiecare 
+brand si adauga intr-un vector pe pozitia urmatoare, daca brandul este unul nou, sau daca nu 
+este, il adauga pe pozitia curenta. In main, folosind a doua functie am calculat si costul total 
+platit de fiecare brand pe combustibil. A treia functie verifica daca toate autoturismele au 
+numarul de inmatriculare corect, numarand literele de la inceputul si finalul sirului si 
+numarul de cifre din interior. Daca o masina nu avea numarul corect, ii schimbam combustibilul 
+in caracterul "1" pentru a putea sa afisez masina in main, alaturi de un mesaj corespunzator.
+  
+
+
+
+
+
